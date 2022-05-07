@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>JavaScript cours 8</title>
+    <meta name="description" content="Insérer une description" />
+    <meta name="auteur" content="Kaled ABDOU" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Cours de JavaScript</h1>
+    <h2>Les évènements</h2>
+
+    <h3>Evènement de chargement</h3>
+    <div class="load-event"></div>
+
+    <h3>Les évènements de click</h3>
+    <div class="click-event">div1 - click</div>
+    <div class="double-click-event">div2 - double click</div>
+
+    <h3>Les évènements liés à la souris</h3>
+    <div id="mouseEnterEvent">div3 - mouse enter</div>
+    <div id="mouseOutEvent">div4 - mouse out</div>
+    <div id="mouseHoverEvent">div5 - mouse hover</div>
+    <div id="mouseDownAndUpEvent">div6 - Mouse down et mouse up</div>
+
+    <h3>Les évènements liés au clavier</h3>
+    <div>div7 - keydown and keyup<input type="text" id="upAndDown" /></div>
+
+    <h3>LEs évènements liés aux formulaires</h3>
+    <div>div8 - input <input type="text" id="inputEvent" /></div>
+    <div>
+      div9 - change
+      <form action="">
+        <select name="choix" id="changeEvent">
+          <option value="">Choisir une option</option>
+          <option value="1">option 1</option>
+          <option value="2">option 2</option>
+          <option value="3">option 3</option>
+        </select>
+      </form>
+    </div>
+    <div>
+      div10 - submit
+      <form action="" id="submitEvent">
+        <button type="submit" id="submitButton">Envoyer</button>
+      </form>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
